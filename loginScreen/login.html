@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-...." crossorigin="anonymous">
     <title>Login - TaskWind </title>
 </head>
+<style>
+</style>
 <body>
     <section class="bg-gray-100  min-h-screen flex items-center justify-center">
         <div class="bg-white flex flex-col sm:flex-row rounded-2xl shadow-lg max-w-4xl max-h-screen p-8">
@@ -14,7 +16,6 @@
                 
                 <h1 class="text-3xl font-bold text-gray-800">Login</h1>
                 <p class="text-gray-600">New to TaskWind? <a href="signup.html" class="text-gray-800 font-semibold">Create an Account</a></p>
-
                 <form method="post" class="mt-4">
                     <div class="mb-4">
                         <label for="email" class="block text-sm  font-medium text-gray-600">Email</label>
@@ -22,13 +23,21 @@
                     </div>
                     <div class="mb-4">
                         <label for="password" class="block text-sm font-medium text-gray-600">Password</label>
-                        <input type="password" id="password" name="password" class="mt-1 p-2 w-full rounded-md border border-gray-300 focus:ring focus:ring-indigo-500 focus:ring-opacity-50" placeholder="Enter password">
+                        <input required type="password" id="password" name="password" class="mt-1 p-2 w-full rounded-md border border-gray-300 focus:ring focus:ring-indigo-500 focus:ring-opacity-50" placeholder="Enter password">
                     </div>
                     <div class="mb-4">
                     <a href="forgot_password.html" class="text-gray-800 font-semibold"><h1>Forgot Password?</h1></a>
                     </div>
-                    <button type="submit" class="bg-gray-800 text-white w-full font-semibold hover:bg-gray-700 py-2 px-4 rounded-md transition duration-200 p-2">
+                    <button type="submit" class="bg-gray-800  text-white w-full font-semibold hover:bg-gray-700 py-2 px-4 rounded-md transition duration-200 p-2">
                         Log In  <i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i> 
+                    </button>
+                    <div class="mt-5 flex items-center justify-center text-gray-500">
+                        <hr class="flex-1  border-gray-300">
+                        <span class="mx-2">Or Continue with</span>
+                        <hr class="flex-1 border-gray-300">
+                    </div>
+                    <button type="submit" class="mt-5 bg-gray-800  text-white w-full font-semibold hover:bg-gray-700 py-2 px-4 rounded-md transition duration-200 p-2">
+                        Google  <i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i> 
                     </button>
                 </form>
             </div>
@@ -37,7 +46,5 @@
             </div>
         </div>
     </section>
-    
-    
 </body>
 </html>
