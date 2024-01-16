@@ -1,0 +1,19 @@
+body{
+    background-color:   #F1F1F1;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* SIDEBAR */
+#sidebar{
+    position:fixed;
+    width: 260px;
+    background:  var(--light);
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+/* SIDEBAR */
