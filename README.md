@@ -1,6 +1,6 @@
 # Task Management System
 
-Welcome to our Task Management System project for the Web System and Technologies course. This project aims to create a user-friendly web-based application designed to help users organize their tasks efficiently.
+ This project aims to create a user-friendly web-based application designed to help users organize their tasks efficiently.
 
 ## Features
 
